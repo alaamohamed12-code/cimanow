@@ -3,7 +3,7 @@
     {
       "id": "movie-live-1-1",
       "title": "بالغ الخطورة مدبلج",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FCoy9U.webp",
+      "image": "/images/movies/movie-live-1-1.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، دراما",
@@ -13,7 +13,7 @@
     {
       "id": "movie-live-1-2",
       "title": "Pretty Lethal",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FkKQEL.webp",
+      "image": "/images/movies/movie-live-1-2.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، رعب",
@@ -23,7 +23,7 @@
     {
       "id": "movie-live-1-3",
       "title": "بث مباشر",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F9zvSC.webp",
+      "image": "/images/movies/movie-live-1-3.webp",
       "rating": 2,
       "year": 2017,
       "genre": "كوميدي",
@@ -33,7 +33,7 @@
     {
       "id": "movie-live-1-4",
       "title": "Hannah Montana 20th Anniversary Special",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FIjutv.webp",
+      "image": "/images/movies/movie-live-1-4.webp",
       "rating": 2,
       "year": 2026,
       "genre": "عائلي",
@@ -43,7 +43,7 @@
     {
       "id": "movie-live-1-5",
       "title": "How to Make a Killing",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FiqqbY.webp",
+      "image": "/images/movies/movie-live-1-5.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، كوميدي",
@@ -53,7 +53,7 @@
     {
       "id": "movie-live-1-6",
       "title": "GOAT",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FCWqWr.webp",
+      "image": "/images/movies/movie-live-1-6.webp",
       "rating": 2,
       "year": 2026,
       "genre": "كوميدي، انمي",
@@ -63,7 +63,7 @@
     {
       "id": "movie-live-1-7",
       "title": "في عز الضهر",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FI5uIN.jpg",
+      "image": "/images/movies/movie-live-1-7.jpg",
       "rating": 2,
       "year": 2025,
       "genre": "اكشن، اثارة",
@@ -73,7 +73,7 @@
     {
       "id": "movie-live-1-8",
       "title": "Send Help",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FuDDcL.webp",
+      "image": "/images/movies/movie-live-1-8.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، رعب",
@@ -83,7 +83,7 @@
     {
       "id": "movie-live-1-9",
       "title": "The Well",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FAq5ZT.webp",
+      "image": "/images/movies/movie-live-1-9.webp",
       "rating": 2,
       "year": 2025,
       "genre": "اثارة، رعب",
@@ -93,7 +93,7 @@
     {
       "id": "movie-live-1-10",
       "title": "Inferno",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F5BMvF.webp",
+      "image": "/images/movies/movie-live-1-10.webp",
       "rating": 1,
       "year": 1999,
       "genre": "اكشن، اثارة",
@@ -103,7 +103,7 @@
     {
       "id": "movie-live-1-11",
       "title": "tremors",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FH0Qdu.webp",
+      "image": "/images/movies/movie-live-1-11.webp",
       "rating": 1,
       "year": 1990,
       "genre": "اثارة، رعب",
@@ -113,7 +113,7 @@
     {
       "id": "movie-live-1-12",
       "title": "The Voyeurs",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2Fdi9tE.webp",
+      "image": "/images/movies/movie-live-1-12.webp",
       "rating": 2,
       "year": 2021,
       "genre": "اثارة",
@@ -123,7 +123,7 @@
     {
       "id": "movie-live-1-13",
       "title": "Down to Earth",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FFjsx3.webp",
+      "image": "/images/movies/movie-live-1-13.webp",
       "rating": 2,
       "year": 2001,
       "genre": "كوميدي، رومانسي",
@@ -133,7 +133,7 @@
     {
       "id": "movie-live-1-14",
       "title": "Angel Heart",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FQOqYX.webp",
+      "image": "/images/movies/movie-live-1-14.webp",
       "rating": 1,
       "year": 1987,
       "genre": "رعب",
@@ -143,7 +143,7 @@
     {
       "id": "movie-live-1-15",
       "title": "Animal Within",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FeXTOI.webp",
+      "image": "/images/movies/movie-live-1-15.webp",
       "rating": 2,
       "year": 2025,
       "genre": "اثارة",
@@ -153,7 +153,7 @@
     {
       "id": "movie-live-1-16",
       "title": "Aztec Batman: Clash of Empires",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FYC2X3.webp",
+      "image": "/images/movies/movie-live-1-16.webp",
       "rating": 2,
       "year": 2025,
       "genre": "اكشن، انمي",
@@ -163,7 +163,7 @@
     {
       "id": "movie-live-1-17",
       "title": "الخدعة مدبلج",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FGa9z5.webp",
+      "image": "/images/movies/movie-live-1-17.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اكشن، اثارة",
@@ -173,7 +173,7 @@
     {
       "id": "movie-live-1-18",
       "title": "The Bluff",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FPbkSr.webp",
+      "image": "/images/movies/movie-live-1-18.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اكشن، اثارة",
@@ -183,7 +183,7 @@
     {
       "id": "movie-live-1-19",
       "title": "This Is Not a Test",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2Fq3XqH.jpg",
+      "image": "/images/movies/movie-live-1-19.jpg",
       "rating": 2,
       "year": 2025,
       "genre": "اثارة، رعب",
@@ -193,7 +193,7 @@
     {
       "id": "movie-live-1-20",
       "title": "The Couple Across the Street",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FkNugG.jpg",
+      "image": "/images/movies/movie-live-1-20.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة",
@@ -203,7 +203,7 @@
     {
       "id": "movie-live-1-21",
       "title": "Midwinter Break",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FY6n2l.webp",
+      "image": "/images/movies/movie-live-1-21.webp",
       "rating": 2,
       "year": 2026,
       "genre": "دراما",
@@ -213,7 +213,7 @@
     {
       "id": "movie-live-1-22",
       "title": "Frankenstein's Bride",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FdGun1.webp",
+      "image": "/images/movies/movie-live-1-22.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، رعب",
@@ -223,7 +223,7 @@
     {
       "id": "movie-live-1-23",
       "title": "Do Not Enter",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FH5l5B.webp",
+      "image": "/images/movies/movie-live-1-23.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، رعب",
@@ -233,7 +233,7 @@
     {
       "id": "movie-live-1-24",
       "title": "Demon Squad: Tooth and Claw",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FQNgfI.webp",
+      "image": "/images/movies/movie-live-1-24.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، رعب",
@@ -243,7 +243,7 @@
     {
       "id": "movie-live-1-25",
       "title": "SUBEDAAR",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2Fbw7hd.webp",
+      "image": "/images/movies/movie-live-1-25.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اكشن، اثارة",
@@ -253,7 +253,7 @@
     {
       "id": "movie-live-1-26",
       "title": "Made in Korea",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FbWTzw.webp",
+      "image": "/images/movies/movie-live-1-26.webp",
       "rating": 2,
       "year": 2026,
       "genre": "دراما",
@@ -263,7 +263,7 @@
     {
       "id": "movie-live-1-27",
       "title": "Jockey",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F8Cdp8.jpg",
+      "image": "/images/movies/movie-live-1-27.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "دراما",
@@ -273,7 +273,7 @@
     {
       "id": "movie-live-1-28",
       "title": "Lockdown",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FtEhyP.jpg",
+      "image": "/images/movies/movie-live-1-28.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، دراما",
@@ -283,7 +283,7 @@
     {
       "id": "movie-live-1-29",
       "title": "Yogida",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FrCmyv.webp",
+      "image": "/images/movies/movie-live-1-29.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اكشن، اثارة",
@@ -293,7 +293,7 @@
     {
       "id": "movie-live-1-30",
       "title": "Crime 101",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F8vSsT.webp",
+      "image": "/images/movies/movie-live-1-30.webp",
       "rating": 2,
       "year": 2026,
       "genre": "اثارة، جريمة",
