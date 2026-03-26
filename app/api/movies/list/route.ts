@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getMoviesListing, type SourceFilters } from '@/lib/fetchMoviesListing'
 import { mockMovies } from '@/lib/mockData'
+import fs from 'fs';
+import path from 'path';
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
@@ -17,21 +19,26 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  try {
-    const data = await getMoviesListing(page, sourceFilters, search)
-    return NextResponse.json(data)
-  } catch (error) {
-    console.error('Movies list fetch error:', error)
-    // fallback to mockMovies
-    return NextResponse.json(
-      {
-        items: mockMovies,
-        page,
-        totalPages: 1,
-        filterFields: [],
-      },
-      { status: 200 }
-    )
+  // في الإنتاج: استخدم ملف movies.json فقط
+  if (process.env.NODE_ENV === 'production') {
+    try {
+      const filePath = path.join(process.cwd(), 'lib', 'movies.json');
+      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      const data = JSON.parse(fileContent);
+      return NextResponse.json(data);
+    } catch (error) {
+      console.error('Movies list file read error:', error);
+      return NextResponse.json({ items: mockMovies, page, totalPages: 1, filterFields: [] }, { status: 200 });
+    }
+  } else {
+    // في التطوير: جلب مباشر
+    try {
+      const data = await getMoviesListing(page, sourceFilters, search);
+      return NextResponse.json(data);
+    } catch (error) {
+      console.error('Movies list fetch error:', error);
+      return NextResponse.json({ items: mockMovies, page, totalPages: 1, filterFields: [] }, { status: 200 });
+    }
   }
 }
 
