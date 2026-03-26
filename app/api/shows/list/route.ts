@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getShowsListing, type SourceFilters } from '@/lib/fetchShowsListing'
+import { mockMiscellaneous } from '@/lib/mockData'
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
@@ -25,14 +26,15 @@ export async function GET(request: NextRequest) {
     })
   } catch (error) {
     console.error('Shows list fetch error:', error)
+    // fallback to mockMiscellaneous
     return NextResponse.json(
       {
-        items: [],
+        items: mockMiscellaneous,
         page,
         totalPages: 1,
         filterFields: [],
       },
-      { status: 500 }
+      { status: 200 }
     )
   }
 }
