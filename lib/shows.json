@@ -3,7 +3,7 @@
     {
       "id": "show-live-1-1",
       "title": "الملياردير الموسم الثالث",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F0OHiM.png",
+      "image": "/images/shows/show-live-1-1.png",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات، رمضان، Talk show",
@@ -13,7 +13,7 @@
     {
       "id": "show-live-1-2",
       "title": "WWE Friday Night SmackDown 2026 0320 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FU6vWz.jpg",
+      "image": "/images/shows/show-live-1-2.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -23,7 +23,7 @@
     {
       "id": "show-live-1-3",
       "title": "رامز ليفل الوحش",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FGNURF.jpg",
+      "image": "/images/shows/show-live-1-3.jpg",
       "rating": 2,
       "year": 2036,
       "genre": "رمضان، كوميدي",
@@ -33,7 +33,7 @@
     {
       "id": "show-live-1-4",
       "title": "جو شو في رمضان",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FA4tBU.webp",
+      "image": "/images/shows/show-live-1-4.webp",
       "rating": 2,
       "year": 2026,
       "genre": "رمضان، Talk show",
@@ -43,7 +43,7 @@
     {
       "id": "show-live-1-5",
       "title": "قلبي اطمأن 2026",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FHFbgL.jpg",
+      "image": "/images/shows/show-live-1-5.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "رمضان، ديني",
@@ -53,7 +53,7 @@
     {
       "id": "show-live-1-6",
       "title": "واحد في النص",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FzkvMK.jpg",
+      "image": "/images/shows/show-live-1-6.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "رمضان، كوميدي",
@@ -63,7 +63,7 @@
     {
       "id": "show-live-1-7",
       "title": "TNA No Surrender 2026 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FkCnDy.jpg",
+      "image": "/images/shows/show-live-1-7.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -73,7 +73,7 @@
     {
       "id": "show-live-1-8",
       "title": "AEW Collision Grand Slam Australia February 2026 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FVGv0u.jpg",
+      "image": "/images/shows/show-live-1-8.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -83,7 +83,7 @@
     {
       "id": "show-live-1-9",
       "title": "WWE Friday Night SmackDown 2026 02 13 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FdzIye.jpg",
+      "image": "/images/shows/show-live-1-9.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -93,7 +93,7 @@
     {
       "id": "show-live-1-10",
       "title": "ROH.Wrestling 2026 02 12 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FXWXma.jpg",
+      "image": "/images/shows/show-live-1-10.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -103,7 +103,7 @@
     {
       "id": "show-live-1-11",
       "title": "TNA iMPACT 2025 02 12",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FIGkKV.jpg",
+      "image": "/images/shows/show-live-1-11.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -113,7 +113,7 @@
     {
       "id": "show-live-1-12",
       "title": "AEW Dynamite 12/2/2026 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2Fwx57P.jpg",
+      "image": "/images/shows/show-live-1-12.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -123,7 +123,7 @@
     {
       "id": "show-live-1-13",
       "title": "WWE NXT 2026 02 10 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F5cYxC.webp",
+      "image": "/images/shows/show-live-1-13.webp",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -133,7 +133,7 @@
     {
       "id": "show-live-1-14",
       "title": "WWE Monday Night Raw 2026.02.09 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F2DU4W.jpg",
+      "image": "/images/shows/show-live-1-14.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -143,7 +143,7 @@
     {
       "id": "show-live-1-15",
       "title": "AEW Collision 06/02/2026 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F4tJFB.jpg",
+      "image": "/images/shows/show-live-1-15.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -153,7 +153,7 @@
     {
       "id": "show-live-1-16",
       "title": "WWE Friday Night SmackDown 2026 02 06 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FhuPuv.jpg",
+      "image": "/images/shows/show-live-1-16.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -163,7 +163,7 @@
     {
       "id": "show-live-1-17",
       "title": "ROH.Wrestling 2026 02 06 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FssWlA.jpg",
+      "image": "/images/shows/show-live-1-17.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -173,7 +173,7 @@
     {
       "id": "show-live-1-18",
       "title": "TNA iMPACT 2025 02 06",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FAyITM.jpg",
+      "image": "/images/shows/show-live-1-18.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -183,7 +183,7 @@
     {
       "id": "show-live-1-19",
       "title": "AEW Dynamite 05/2/2026 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FeWq4M.jpg",
+      "image": "/images/shows/show-live-1-19.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -193,7 +193,7 @@
     {
       "id": "show-live-1-20",
       "title": "WWE NXT 2026 02 03 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FdoceC.jpg",
+      "image": "/images/shows/show-live-1-20.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -203,7 +203,7 @@
     {
       "id": "show-live-1-21",
       "title": "WWE Monday Night Raw 2026.02.02 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2F0NFJf.jpg",
+      "image": "/images/shows/show-live-1-21.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -213,7 +213,7 @@
     {
       "id": "show-live-1-22",
       "title": "AEW Collision 01/02/2026 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FoHB62.jpg",
+      "image": "/images/shows/show-live-1-22.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -223,7 +223,7 @@
     {
       "id": "show-live-1-23",
       "title": "WWE Royal Rumble 2026",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FIT6Oo.jpg",
+      "image": "/images/shows/show-live-1-23.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
@@ -233,7 +233,7 @@
     {
       "id": "show-live-1-24",
       "title": "WWE Friday Night SmackDown 2026 01 30 مترجم",
-      "image": "/api/image-proxy?url=https%3A%2F%2Fimg.downet.net%2Fuploads%2FwEYrv.jpg",
+      "image": "/images/shows/show-live-1-24.jpg",
       "rating": 2,
       "year": 2026,
       "genre": "مسابقات",
