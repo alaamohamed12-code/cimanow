@@ -30,14 +30,14 @@ const makeItem = (
 });
 
 export const mockMovies: Content[] = [
-  makeItem("movie-1", "السادة الأفاضل", 8.0, 2026, "دراما", "بعد وفاة الأب جلال، تنقلب حياة العائلة وتبدأ أزمة ديون وأسرار."),
-  makeItem("movie-2", "This Is Not a Test", 6.0, 2025, "إثارة", "فيلم إثارة حديث ضمن إضافات الأفلام الجديدة."),
-  makeItem("movie-3", "The Couple Across the Street", 6.0, 2026, "إثارة", "جيران في مواجهة توتر متصاعد وأحداث غامضة."),
-  makeItem("movie-4", "Midwinter Break", 3.0, 2026, "دراما", "رحلة درامية في عطلة شتوية مختلفة."),
-  makeItem("movie-5", "Frankenstein's Bride", 5.0, 2026, "رعب", "إعادة تخيل حديثة لعالم الرعب الكلاسيكي."),
-  makeItem("movie-6", "Do Not Enter", 5.0, 2026, "إثارة", "تحذير بسيط يقود إلى كابوس أكبر."),
-  makeItem("movie-7", "Demon Squad: Tooth and Claw", 6.0, 2026, "رعب", "فريق يطارد شرًا يزداد خطورة."),
-  makeItem("movie-8", "SUBEDAAR", 6.0, 2026, "أكشن", "حكاية صراع وقوة في قالب أكشن سريع."),
+  makeItem("movie-1", "السادة الأفاضل", 8.0, 2026, "دراما", "بعد وفاة الأب جلال، تنقلب حياة العائلة وتبدأ أزمة ديون وأسرار.", "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("movie-2", "This Is Not a Test", 6.0, 2025, "إثارة", "فيلم إثارة حديث ضمن إضافات الأفلام الجديدة.", "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("movie-3", "The Couple Across the Street", 6.0, 2026, "إثارة", "جيران في مواجهة توتر متصاعد وأحداث غامضة.", "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("movie-4", "Midwinter Break", 3.0, 2026, "دراما", "رحلة درامية في عطلة شتوية مختلفة.", "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("movie-5", "Frankenstein's Bride", 5.0, 2026, "رعب", "إعادة تخيل حديثة لعالم الرعب الكلاسيكي.", "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("movie-6", "Do Not Enter", 5.0, 2026, "إثارة", "تحذير بسيط يقود إلى كابوس أكبر.", "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("movie-7", "Demon Squad: Tooth and Claw", 6.0, 2026, "رعب", "فريق يطارد شرًا يزداد خطورة.", "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("movie-8", "SUBEDAAR", 6.0, 2026, "أكشن", "حكاية صراع وقوة في قالب أكشن سريع.", "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=400&h=600&q=80"),
   makeItem("movie-9", "Made in Korea", 9.0, 2026, "دراما", "دراما معاصرة بنَفَس إنتاجي قوي."),
   makeItem("movie-10", "Jockey", 5.0, 2026, "دراما", "قصة شخصية عن فرصة أخيرة وإثبات الذات."),
   makeItem("movie-11", "Lockdown", 6.0, 2026, "دراما", "اختبار نفسي في ظروف استثنائية."),
@@ -63,14 +63,14 @@ export const mockMovies: Content[] = [
 ];
 
 export const mockSeries: Content[] = [
-  makeItem("series-1", "المداح ج6: أسطورة النهاية", 8.0, 2026, "دراما", "يعود صابر المداح في مواجهة جديدة مع قوى شريرة."),
-  makeItem("series-2", "The Last Thing He Told Me الموسم الثاني", 6.0, 2026, "إثارة", "موسم جديد يكشف طبقات أعمق من الغموض."),
-  makeItem("series-3", "The Hunt", 9.0, 2026, "غموض", "مطاردة نفسية مليئة بالمفاجآت."),
-  makeItem("series-4", "Invincible الموسم الرابع", 6.0, 2026, "أكشن", "استمرار عالم الأبطال بقصص أكثر قتامة."),
-  makeItem("series-5", "Imperfect Women", 7.0, 2026, "جريمة", "حياة ثلاث نساء تتقاطع مع لغز خطير."),
-  makeItem("series-6", "يا أنا يا هي ج2", 7.0, 2026, "كوميدي", "مواقف كوميدية متسارعة في موسم ثانٍ."),
-  makeItem("series-7", "شكون كان يقول", 7.0, 2026, "دراما", "دراما اجتماعية بنكهة رمضانية."),
-  makeItem("series-8", "رحمة 2", 6.0, 2026, "دراما", "موسم جديد يكمل رحلة الشخصيات."),
+  makeItem("series-1", "المداح ج6: أسطورة النهاية", 8.0, 2026, "دراما", "يعود صابر المداح في مواجهة جديدة مع قوى شريرة.", "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("series-2", "The Last Thing He Told Me الموسم الثاني", 6.0, 2026, "إثارة", "موسم جديد يكشف طبقات أعمق من الغموض.", "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("series-3", "The Hunt", 9.0, 2026, "غموض", "مطاردة نفسية مليئة بالمفاجآت.", "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("series-4", "Invincible الموسم الرابع", 6.0, 2026, "أكشن", "استمرار عالم الأبطال بقصص أكثر قتامة.", "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("series-5", "Imperfect Women", 7.0, 2026, "جريمة", "حياة ثلاث نساء تتقاطع مع لغز خطير.", "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("series-6", "يا أنا يا هي ج2", 7.0, 2026, "كوميدي", "مواقف كوميدية متسارعة في موسم ثانٍ.", "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("series-7", "شكون كان يقول", 7.0, 2026, "دراما", "دراما اجتماعية بنكهة رمضانية.", "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("series-8", "رحمة 2", 6.0, 2026, "دراما", "موسم جديد يكمل رحلة الشخصيات.", "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=facearea&w=400&h=600&q=80"),
   makeItem("series-9", "قبل وبعد", 7.0, 2026, "كوميدي", "مفارقات حياتية قبل القرارات وبعدها."),
   makeItem("series-10", "ليلي طويل", 7.0, 2026, "دراما", "ليلة واحدة تغيّر مصير الجميع."),
   makeItem("series-11", "دروب المرجلة ج3", 6.0, 2026, "دراما", "استكمال لصراعات الجزء السابق."),
@@ -96,8 +96,8 @@ export const mockSeries: Content[] = [
 ];
 
 export const mockMiscellaneous: Content[] = [
-  makeItem("show-1", "رامز ليفل الوحش", 7.0, 2026, "ترفيهي", "برنامج مقالب وتحديات مستوحى من ألعاب خطيرة."),
-  makeItem("show-2", "WWE Friday Night SmackDown 2026 0320 مترجم", 5.0, 2026, "مصارعة", "حلقة حديثة مترجمة من عروض المصارعة."),
+  makeItem("show-1", "رامز ليفل الوحش", 7.0, 2026, "ترفيهي", "برنامج مقالب وتحديات مستوحى من ألعاب خطيرة.", "https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=facearea&w=400&h=600&q=80"),
+  makeItem("show-2", "WWE Friday Night SmackDown 2026 0320 مترجم", 5.0, 2026, "مصارعة", "حلقة حديثة مترجمة من عروض المصارعة.", "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=facearea&w=400&h=600&q=80"),
   makeItem("show-3", "جو شو في رمضان", 7.0, 2026, "Talk Show", "برنامج حواري ساخر بمحتوى رمضاني."),
   makeItem("show-4", "الملياردير الموسم الثالث", 7.0, 2026, "مسابقات", "تحديات وربح ضمن موسم جديد."),
   makeItem("show-5", "قلبي اطمأن 2026", 7.0, 2026, "ديني", "محتوى إنساني وخيري ملهم."),
