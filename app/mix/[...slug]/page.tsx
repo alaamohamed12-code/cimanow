@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { notFound } from 'next/navigation'
 import { getMixDetails } from '@/lib/fetchMixDetails'
 import ContentDetailsPage from '@/components/ContentDetailsPage'
