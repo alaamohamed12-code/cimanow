@@ -15,15 +15,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "**.ak.sv",
-      },
-      {
-        protocol: "https",
         hostname: "ak.sv",
-      },
-      {
-        protocol: "https",
-        hostname: "**.akwam.io",
       },
       {
         protocol: "https",
