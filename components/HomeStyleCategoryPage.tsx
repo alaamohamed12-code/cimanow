@@ -36,7 +36,7 @@ const inferHeroTypeLabel = (content: Content | null): string | null => {
 
 interface HomeStyleCategoryPageProps {
   fetchUrl: string
-  initialItems: Content[]
+  initialItems?: Content[]
   heroBadgeLabel: string
   sectionTitle?: string
   sectionPath?: string
@@ -47,7 +47,7 @@ interface HomeStyleCategoryPageProps {
 
 export default function HomeStyleCategoryPage({
   fetchUrl,
-  initialItems,
+  initialItems = [],
   heroBadgeLabel,
   sectionTitle,
   sectionPath,
