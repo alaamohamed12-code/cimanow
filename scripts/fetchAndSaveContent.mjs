@@ -6,7 +6,8 @@ import fetch from 'node-fetch';
 const endpoints = [
   { url: 'http://localhost:3000/api/movies/list?page=1', file: './lib/movies.json' },
   { url: 'http://localhost:3000/api/series/list?page=1', file: './lib/series.json' },
-  { url: 'http://localhost:3000/api/shows/list?page=1', file: './lib/shows.json' }
+  { url: 'http://localhost:3000/api/shows/list?page=1', file: './lib/shows.json' },
+  { url: 'http://localhost:3000/api/mix/list?page=1', file: './lib/mix.json' }
 ];
 
 async function fetchAndSave() {

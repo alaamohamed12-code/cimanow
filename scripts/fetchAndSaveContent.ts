@@ -3,6 +3,7 @@
 import { getMoviesListing } from '../lib/fetchMoviesListing';
 import { getSeriesListing } from '../lib/fetchSeriesListing';
 import { getShowsListing } from '../lib/fetchShowsListing';
+import { getMixListing } from '../lib/fetchMixListing';
 import fs from 'fs';
 
 async function fetchAndSave() {
@@ -26,6 +27,13 @@ async function fetchAndSave() {
     console.log('shows.json saved!');
   } catch (e) {
     console.error('Failed to fetch/save shows:', e);
+  }
+  try {
+    const mix = await getMixListing(1, {}, undefined);
+    fs.writeFileSync('./lib/mix.json', JSON.stringify(mix, null, 2), 'utf-8');
+    console.log('mix.json saved!');
+  } catch (e) {
+    console.error('Failed to fetch/save mix:', e);
   }
 }
 

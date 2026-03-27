@@ -1,7 +1,9 @@
+export const dynamic = 'force-dynamic'
 
-export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server'
 import { getMixListing, type SourceFilters } from '@/lib/fetchMixListing'
+import { mockMiscellaneous } from '@/lib/mockData'
+import { readListingSnapshot } from '@/lib/readListingSnapshot'
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
@@ -18,6 +20,12 @@ export async function GET(request: NextRequest) {
     }
   }
 
+  const shouldPreferSnapshot = process.env.NODE_ENV === 'production' || process.env.FORCE_STATIC_LISTINGS === 'true'
+
+  if (shouldPreferSnapshot) {
+    return NextResponse.json(readListingSnapshot('mix.json', mockMiscellaneous, page, search), { status: 200 })
+  }
+
   try {
     const data = await getMixListing(page, sourceFilters, search)
     return NextResponse.json(data, {
@@ -27,15 +35,7 @@ export async function GET(request: NextRequest) {
     })
   } catch (error) {
     console.error('Mix list fetch error:', error)
-    return NextResponse.json(
-      {
-        items: [],
-        page,
-        totalPages: 1,
-        filterFields: [],
-      },
-      { status: 500 }
-    )
+    return NextResponse.json(readListingSnapshot('mix.json', mockMiscellaneous, page, search), { status: 200 })
   }
 }
 

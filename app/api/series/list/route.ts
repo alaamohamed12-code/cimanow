@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSeriesListing, type SourceFilters } from '@/lib/fetchSeriesListing'
 import { mockSeries } from '@/lib/mockData'
-import fs from 'fs';
-import path from 'path';
+import { readListingSnapshot } from '@/lib/readListingSnapshot'
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
@@ -19,28 +18,22 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  if (process.env.NODE_ENV === 'production') {
-    try {
-      const filePath = path.join(process.cwd(), 'lib', 'series.json');
-      const fileContent = fs.readFileSync(filePath, 'utf-8');
-      const data = JSON.parse(fileContent);
-      return NextResponse.json(data);
-    } catch (error) {
-      console.error('Series list file read error:', error);
-      return NextResponse.json({ items: mockSeries, page, totalPages: 1, filterFields: [] }, { status: 200 });
-    }
-  } else {
-    try {
-      const data = await getSeriesListing(page, sourceFilters, search);
-      return NextResponse.json(data, {
-        headers: {
-          'Cache-Control': 'no-store',
-        },
-      });
-    } catch (error) {
-      console.error('Series list fetch error:', error);
-      return NextResponse.json({ items: mockSeries, page, totalPages: 1, filterFields: [] }, { status: 200 });
-    }
+  const shouldPreferSnapshot = process.env.NODE_ENV === 'production' || process.env.FORCE_STATIC_LISTINGS === 'true'
+
+  if (shouldPreferSnapshot) {
+    return NextResponse.json(readListingSnapshot('series.json', mockSeries, page, search), { status: 200 })
+  }
+
+  try {
+    const data = await getSeriesListing(page, sourceFilters, search)
+    return NextResponse.json(data, {
+      headers: {
+        'Cache-Control': 'no-store',
+      },
+    })
+  } catch (error) {
+    console.error('Series list fetch error:', error)
+    return NextResponse.json(readListingSnapshot('series.json', mockSeries, page, search), { status: 200 })
   }
 }
 
