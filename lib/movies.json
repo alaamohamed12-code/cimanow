@@ -1,0 +1,646 @@
+{
+  "items": [
+    {
+      "id": "movie-live-1-1",
+      "title": "بالغ الخطورة مدبلج",
+      "image": "/images/movies/movie-live-1-1.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، دراما",
+      "description": "بالغ الخطورة مدبلج - 2026 مدبلج اثارة دراما 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10915/بالغ-الخطورة-مدبلج"
+    },
+    {
+      "id": "movie-live-1-2",
+      "title": "Pretty Lethal",
+      "image": "/images/movies/movie-live-1-2.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، رعب",
+      "description": "Pretty Lethal - 2026 اثارة رعب 7.0 HDTV --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10914/pretty-lethal"
+    },
+    {
+      "id": "movie-live-1-3",
+      "title": "بث مباشر",
+      "image": "/images/movies/movie-live-1-3.webp",
+      "rating": 2,
+      "year": 2017,
+      "genre": "كوميدي",
+      "description": "بث مباشر - 2017 كوميدي 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10913/بث-مباشر"
+    },
+    {
+      "id": "movie-live-1-4",
+      "title": "Hannah Montana 20th Anniversary Special",
+      "image": "/images/movies/movie-live-1-4.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "عائلي",
+      "description": "Hannah Montana 20th Anniversary Special - 2026 عائلي موسيقى 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10912/hannah-montana-20th-anniversary-special"
+    },
+    {
+      "id": "movie-live-1-5",
+      "title": "How to Make a Killing",
+      "image": "/images/movies/movie-live-1-5.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، كوميدي",
+      "description": "How to Make a Killing - 2026 كوميدي اثارة 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10911/how-to-make-a-killing"
+    },
+    {
+      "id": "movie-live-1-6",
+      "title": "GOAT",
+      "image": "/images/movies/movie-live-1-6.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "كوميدي، انمي",
+      "description": "GOAT - 2026 انمي كوميدي 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10910/goat"
+    },
+    {
+      "id": "movie-live-1-7",
+      "title": "في عز الضهر",
+      "image": "/images/movies/movie-live-1-7.jpg",
+      "rating": 2,
+      "year": 2025,
+      "genre": "اكشن، اثارة",
+      "description": "في عز الضهر - 2025 اكشن اثارة 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10909/في-عز-الضهر"
+    },
+    {
+      "id": "movie-live-1-8",
+      "title": "Send Help",
+      "image": "/images/movies/movie-live-1-8.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، رعب",
+      "description": "Send Help - 2026 اثارة رعب 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10908/send-help"
+    },
+    {
+      "id": "movie-live-1-9",
+      "title": "The Well",
+      "image": "/images/movies/movie-live-1-9.webp",
+      "rating": 2,
+      "year": 2025,
+      "genre": "اثارة، رعب",
+      "description": "The Well - 2025 اثارة رعب 5.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10907/the-well"
+    },
+    {
+      "id": "movie-live-1-10",
+      "title": "Inferno",
+      "image": "/images/movies/movie-live-1-10.webp",
+      "rating": 1,
+      "year": 1999,
+      "genre": "اكشن، اثارة",
+      "description": "Inferno - 1999 اكشن اثارة 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10906/inferno"
+    },
+    {
+      "id": "movie-live-1-11",
+      "title": "tremors",
+      "image": "/images/movies/movie-live-1-11.webp",
+      "rating": 1,
+      "year": 1990,
+      "genre": "اثارة، رعب",
+      "description": "tremors - 1990 اثارة رعب 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10905/tremors"
+    },
+    {
+      "id": "movie-live-1-12",
+      "title": "The Voyeurs",
+      "image": "/images/movies/movie-live-1-12.webp",
+      "rating": 2,
+      "year": 2021,
+      "genre": "اثارة",
+      "description": "The Voyeurs - 2021 اثارة 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10904/the-voyeurs"
+    },
+    {
+      "id": "movie-live-1-13",
+      "title": "Down to Earth",
+      "image": "/images/movies/movie-live-1-13.webp",
+      "rating": 2,
+      "year": 2001,
+      "genre": "كوميدي، رومانسي",
+      "description": "Down to Earth - 2001 كوميدي رومانسي 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10903/down-to-earth"
+    },
+    {
+      "id": "movie-live-1-14",
+      "title": "Angel Heart",
+      "image": "/images/movies/movie-live-1-14.webp",
+      "rating": 1,
+      "year": 1987,
+      "genre": "رعب",
+      "description": "Angel Heart - 1987 رعب 4.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10902/angel-heart"
+    },
+    {
+      "id": "movie-live-1-15",
+      "title": "Animal Within",
+      "image": "/images/movies/movie-live-1-15.webp",
+      "rating": 2,
+      "year": 2025,
+      "genre": "اثارة",
+      "description": "Animal Within - 2025 اثارة 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10901/animal-within"
+    },
+    {
+      "id": "movie-live-1-16",
+      "title": "Aztec Batman: Clash of Empires",
+      "image": "/images/movies/movie-live-1-16.webp",
+      "rating": 2,
+      "year": 2025,
+      "genre": "اكشن، انمي",
+      "description": "Aztec Batman: Clash of Empires - 2025 انمي اكشن فانتازيا 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10900/aztec-batman-clash-of-empires"
+    },
+    {
+      "id": "movie-live-1-17",
+      "title": "الخدعة مدبلج",
+      "image": "/images/movies/movie-live-1-17.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اكشن، اثارة",
+      "description": "الخدعة مدبلج - 2026 اكشن مدبلج اثارة 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10899/الخدعة-مدبلج"
+    },
+    {
+      "id": "movie-live-1-18",
+      "title": "The Bluff",
+      "image": "/images/movies/movie-live-1-18.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اكشن، اثارة",
+      "description": "The Bluff - 2026 اكشن اثارة 5.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10898/the-bluff"
+    },
+    {
+      "id": "movie-live-1-19",
+      "title": "This Is Not a Test",
+      "image": "/images/movies/movie-live-1-19.jpg",
+      "rating": 2,
+      "year": 2025,
+      "genre": "اثارة، رعب",
+      "description": "This Is Not a Test - 2025 اثارة رعب 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10897/this-is-not-a-test"
+    },
+    {
+      "id": "movie-live-1-20",
+      "title": "The Couple Across the Street",
+      "image": "/images/movies/movie-live-1-20.jpg",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة",
+      "description": "The Couple Across the Street - 2026 اثارة 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10896/the-couple-across-the-street"
+    },
+    {
+      "id": "movie-live-1-21",
+      "title": "Midwinter Break",
+      "image": "/images/movies/movie-live-1-21.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "دراما",
+      "description": "Midwinter Break - 2026 دراما 3.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10895/midwinter-break"
+    },
+    {
+      "id": "movie-live-1-22",
+      "title": "Frankenstein's Bride",
+      "image": "/images/movies/movie-live-1-22.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، رعب",
+      "description": "Frankenstein's Bride - 2026 اثارة رعب 5.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10894/frankenstein-s-bride"
+    },
+    {
+      "id": "movie-live-1-23",
+      "title": "Do Not Enter",
+      "image": "/images/movies/movie-live-1-23.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، رعب",
+      "description": "Do Not Enter - 2026 اثارة رعب 5.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10893/do-not-enter"
+    },
+    {
+      "id": "movie-live-1-24",
+      "title": "Demon Squad: Tooth and Claw",
+      "image": "/images/movies/movie-live-1-24.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، رعب",
+      "description": "Demon Squad: Tooth and Claw - 2026 اثارة رعب 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10892/demon-squad-tooth-and-claw"
+    },
+    {
+      "id": "movie-live-1-25",
+      "title": "SUBEDAAR",
+      "image": "/images/movies/movie-live-1-25.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اكشن، اثارة",
+      "description": "SUBEDAAR - 2026 اكشن اثارة 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10891/subedaar"
+    },
+    {
+      "id": "movie-live-1-26",
+      "title": "Made in Korea",
+      "image": "/images/movies/movie-live-1-26.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "دراما",
+      "description": "Made in Korea - 2026 NETFLIX دراما 9.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10890/made-in-korea"
+    },
+    {
+      "id": "movie-live-1-27",
+      "title": "Jockey",
+      "image": "/images/movies/movie-live-1-27.jpg",
+      "rating": 2,
+      "year": 2026,
+      "genre": "دراما",
+      "description": "Jockey - 2026 دراما 5.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10889/jockey"
+    },
+    {
+      "id": "movie-live-1-28",
+      "title": "Lockdown",
+      "image": "/images/movies/movie-live-1-28.jpg",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، دراما",
+      "description": "Lockdown - 2026 اثارة دراما 6.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10888/lockdown"
+    },
+    {
+      "id": "movie-live-1-29",
+      "title": "Yogida",
+      "image": "/images/movies/movie-live-1-29.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اكشن، اثارة",
+      "description": "Yogida - 2026 اكشن اثارة 7.0 WEB-DL --> مشاهدة قائمتي",
+      "sourceUrl": "https://ak.sv/movie/10887/yogida"
+    },
+    {
+      "id": "movie-live-1-30",
+      "title": "Crime 101",
+      "image": "/images/movies/movie-live-1-30.webp",
+      "rating": 2,
+      "year": 2026,
+      "genre": "اثارة، جريمة",
+      "description": "Crime 101 - 2026 اثارة جريمة </div",
+      "sourceUrl": "https://ak.sv/movie/10886/crime-101"
+    }
+  ],
+  "page": 1,
+  "totalPages": 348,
+  "filterFields": [
+    {
+      "name": "section",
+      "label": "القسم",
+      "options": [
+        {
+          "value": "0",
+          "label": "القسم"
+        },
+        {
+          "value": "29",
+          "label": "عربي"
+        },
+        {
+          "value": "30",
+          "label": "اجنبي"
+        },
+        {
+          "value": "31",
+          "label": "هندي"
+        },
+        {
+          "value": "32",
+          "label": "تركي"
+        },
+        {
+          "value": "33",
+          "label": "اسيوي"
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "label": "التصنيف",
+      "options": [
+        {
+          "value": "0",
+          "label": "التصنيف"
+        },
+        {
+          "value": "87",
+          "label": "رمضان"
+        },
+        {
+          "value": "30",
+          "label": "انمي"
+        },
+        {
+          "value": "18",
+          "label": "اكشن"
+        },
+        {
+          "value": "71",
+          "label": "مدبلج"
+        },
+        {
+          "value": "72",
+          "label": "NETFLIX"
+        },
+        {
+          "value": "20",
+          "label": "كوميدي"
+        },
+        {
+          "value": "35",
+          "label": "اثارة"
+        },
+        {
+          "value": "34",
+          "label": "غموض"
+        },
+        {
+          "value": "33",
+          "label": "عائلي"
+        },
+        {
+          "value": "88",
+          "label": "اطفال"
+        },
+        {
+          "value": "25",
+          "label": "حربي"
+        },
+        {
+          "value": "32",
+          "label": "رياضي"
+        },
+        {
+          "value": "89",
+          "label": "قصير"
+        },
+        {
+          "value": "43",
+          "label": "فانتازيا"
+        },
+        {
+          "value": "24",
+          "label": "خيال علمي"
+        },
+        {
+          "value": "31",
+          "label": "موسيقى"
+        },
+        {
+          "value": "29",
+          "label": "سيرة ذاتية"
+        },
+        {
+          "value": "28",
+          "label": "وثائقي"
+        },
+        {
+          "value": "27",
+          "label": "رومانسي"
+        },
+        {
+          "value": "26",
+          "label": "تاريخي"
+        },
+        {
+          "value": "23",
+          "label": "دراما"
+        },
+        {
+          "value": "22",
+          "label": "رعب"
+        },
+        {
+          "value": "21",
+          "label": "جريمة"
+        },
+        {
+          "value": "19",
+          "label": "مغامرة"
+        },
+        {
+          "value": "91",
+          "label": "غربي"
+        }
+      ]
+    },
+    {
+      "name": "rating",
+      "label": "التقييم",
+      "options": [
+        {
+          "value": "0",
+          "label": "التقييم"
+        },
+        {
+          "value": "1",
+          "label": "+1"
+        },
+        {
+          "value": "2",
+          "label": "+2"
+        },
+        {
+          "value": "3",
+          "label": "+3"
+        },
+        {
+          "value": "4",
+          "label": "+4"
+        },
+        {
+          "value": "5",
+          "label": "+5"
+        },
+        {
+          "value": "6",
+          "label": "+6"
+        },
+        {
+          "value": "7",
+          "label": "+7"
+        },
+        {
+          "value": "8",
+          "label": "+8"
+        },
+        {
+          "value": "9",
+          "label": "+9"
+        }
+      ]
+    },
+    {
+      "name": "year",
+      "label": "سنة الإنتاج",
+      "options": [
+        {
+          "value": "0",
+          "label": "سنة الإنتاج"
+        }
+      ]
+    },
+    {
+      "name": "language",
+      "label": "اللغة",
+      "options": [
+        {
+          "value": "0",
+          "label": "اللغة"
+        },
+        {
+          "value": "1",
+          "label": "العربية"
+        },
+        {
+          "value": "2",
+          "label": "الإنجليزية"
+        },
+        {
+          "value": "3",
+          "label": "الهندية"
+        },
+        {
+          "value": "4",
+          "label": "الاسبانية"
+        },
+        {
+          "value": "5",
+          "label": "الصينية"
+        },
+        {
+          "value": "6",
+          "label": "البرتغالية"
+        },
+        {
+          "value": "8",
+          "label": "الفرنسية"
+        },
+        {
+          "value": "9",
+          "label": "الروسية"
+        },
+        {
+          "value": "10",
+          "label": "اليابانية"
+        },
+        {
+          "value": "11",
+          "label": "الألمانية"
+        },
+        {
+          "value": "12",
+          "label": "الكورية"
+        },
+        {
+          "value": "13",
+          "label": "الفارسية"
+        },
+        {
+          "value": "14",
+          "label": "الفيتنامية"
+        },
+        {
+          "value": "15",
+          "label": "الإيطالية"
+        },
+        {
+          "value": "16",
+          "label": "التركية"
+        },
+        {
+          "value": "17",
+          "label": "البولندية"
+        },
+        {
+          "value": "18",
+          "label": "الأوكرانية"
+        },
+        {
+          "value": "19",
+          "label": "الفلندية"
+        },
+        {
+          "value": "20",
+          "label": "التايلاندية"
+        },
+        {
+          "value": "21",
+          "label": "الدنماركية"
+        },
+        {
+          "value": "22",
+          "label": "السويدية"
+        },
+        {
+          "value": "23",
+          "label": "الإندونيسية"
+        },
+        {
+          "value": "24",
+          "label": "الماليزية"
+        },
+        {
+          "value": "25",
+          "label": "النرويجية"
+        },
+        {
+          "value": "26",
+          "label": "السويدية"
+        },
+        {
+          "value": "27",
+          "label": "الهولندية"
+        },
+        {
+          "value": "28",
+          "label": "الاردية"
+        },
+        {
+          "value": "29",
+          "label": "المجرية"
+        }
+      ]
+    },
+    {
+      "name": "formats",
+      "label": "formats",
+      "options": [
+        {
+          "value": "0",
+          "label": "الجودة"
+        }
+      ]
+    },
+    {
+      "name": "quality",
+      "label": "الجودة",
+      "options": [
+        {
+          "value": "0",
+          "label": "الدقة"
+        }
+      ]
+    }
+  ]
+}
