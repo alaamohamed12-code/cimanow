@@ -23,6 +23,26 @@ declare global {
   var _visitorStore: VisitorStore | undefined
 }
 
+import fs from 'fs'
+import path from 'path'
+
+const TOTAL_FILE = path.resolve(__dirname, 'visitors-total.json')
+
+function readTotalFromFile(): { total: number, ids: string[] } {
+  try {
+    const data = fs.readFileSync(TOTAL_FILE, 'utf-8')
+    return JSON.parse(data)
+  } catch {
+    return { total: 0, ids: [] }
+  }
+}
+
+function writeTotalToFile(total: number, ids: string[]) {
+  try {
+    fs.writeFileSync(TOTAL_FILE, JSON.stringify({ total, ids }), 'utf-8')
+  } catch {}
+}
+
 function ensureStoreShape(store: Partial<VisitorStore>): VisitorStore {
   const safeStore = store as VisitorStore
 
@@ -50,12 +70,14 @@ function ensureStoreShape(store: Partial<VisitorStore>): VisitorStore {
 
 function getStore(): VisitorStore {
   if (!global._visitorStore) {
+    // Load total visitors from file
+    const totalData = readTotalFromFile()
     global._visitorStore = ensureStoreShape({
       sessions: new Map(),
       peakToday: 0,
       history: [],
       lastHistoryDay: new Date().toDateString(),
-      allTimeVisitorIds: new Set(),
+      allTimeVisitorIds: new Set(totalData.ids),
       dailyVisitorIds: new Map(),
     })
   } else {
@@ -102,8 +124,10 @@ export function registerVisitor(id: string, page = '/') {
 
   store.sessions.set(id, { id, lastSeen: Date.now(), page })
 
+  let isNew = false
   if (!store.allTimeVisitorIds.has(id)) {
     store.allTimeVisitorIds.add(id)
+    isNew = true
   }
 
   let todaySet = store.dailyVisitorIds.get(dayKey)
@@ -112,6 +136,11 @@ export function registerVisitor(id: string, page = '/') {
     store.dailyVisitorIds.set(dayKey, todaySet)
   }
   todaySet.add(id)
+
+  // تحديث العدد الكلي في الملف عند زائر جديد
+  if (isNew) {
+    writeTotalToFile(store.allTimeVisitorIds.size, Array.from(store.allTimeVisitorIds))
+  }
 
   cleanup(store)
   const current = store.sessions.size
