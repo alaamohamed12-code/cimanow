@@ -7,9 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "refresh:listings": "ts-node scripts/fetchAndSaveContent.ts"
+    "refresh:listings": "ts-node scripts/fetchAndSaveContent.ts",
+    "refresh:listings:mjs": "node scripts/fetchAndSaveContent.mjs",
+    "localize:images": "node scripts/downloadMovieImagesAndUpdateJson.mjs && node scripts/downloadSeriesImagesAndUpdateJson.mjs && node scripts/downloadShowsImagesAndUpdateJson.mjs && node scripts/downloadMixImagesAndUpdateJson.mjs",
+    "prepare:static-data": "npm run refresh:listings && npm run localize:images"
   },
   "dependencies": {
+    "better-sqlite3": "^12.8.0",
     "next": "16.2.1",
     "node-fetch": "^3.3.2",
     "react": "19.2.4",
