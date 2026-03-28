@@ -22,6 +22,6 @@ export function addVisitor(id: string) {
 }
 
 export function getTotalVisitors(): number {
-  const row = db.prepare('SELECT COUNT(*) as total FROM visitors').get();
-  return row?.total || 0;
+  const row = db.prepare('SELECT COUNT(*) as total FROM visitors').get() as { total?: number } | undefined;
+  return (row && typeof row.total === 'number') ? row.total : 0;
 }
